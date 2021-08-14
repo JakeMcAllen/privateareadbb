@@ -1,5 +1,5 @@
 const setting = {
-    path: 'http://localhost:8080/',
+    path: 'https://dbbbackend.herokuapp.com/',
     msgPerPage: 10,
     dimHopMin: 1000,
 
