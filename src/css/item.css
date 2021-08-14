@@ -1,0 +1,33 @@
+.containerDom {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 2px 15px 2px 0;
+}
+
+.contTitle {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.title {
+    margin: 5px auto 0 10px;
+}
+
+.inputText {
+    width: 100%;
+}
+
+.submit {
+    padding: 10px;
+    background-color: limegreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 20%;
+    color: black;
+}
+
+.submit:active {
+    background-color: seagreen;
+    color: white;
+}

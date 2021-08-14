@@ -1,0 +1,180 @@
+.MenuComponent_container {
+    border-bottom: solid 1px black;
+    padding: 0;
+    margin: 0;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer:hover {
+    border-bottom: solid 1px black;
+    padding: 0;
+    margin: 0;
+    border: 0 0 1px 0 solid;
+    box-shadow: 0 10px 8px #888888;
+}
+
+.imgLogo {
+    width: 40px;
+    height: 40px;
+    margin: 20%;
+}
+
+.nav {
+    border:1px solid #ccc;
+    border-width: 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav a {
+    text-decoration: none;
+    display:inline-block;
+    padding:10px;
+    font-size: x-large;
+}
+
+.imgMenu {    
+    width: 30px;
+    height: 30px;
+    padding: 0%;
+}
+
+.aPage {
+    font-weight: bold;
+}
+
+
+.MenuButtonContainer {
+    margin: auto 10px;
+}
+
+.MenuButton {
+    text-decoration: none;
+    border: 0;
+    background-color: white;
+}
+
+.MenuBox {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+}
+
+.posNav {
+    margin: 1.5%;
+    border-bottom: 1px solid;
+    padding-bottom: 1.5%;
+    margin-bottom: 0%;
+}
+
+.nav2 { 
+    border:1px solid #ccc;
+    border-width: 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: grid;
+    border: 2px solid;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.nav2:hover {
+    border-bottom: solid 1px black;
+    padding: 0;
+    margin: 0;
+    border: 0 0 1px 0 solid;
+    box-shadow: 0 10px 8px #888888;
+}
+
+.posNav > a {
+    font-size: xx-large;
+}
+
+.flexConntainerBox {
+    display: grid;
+}
+
+.logBoxInput {
+    display: grid;
+    width: 80%;
+    margin: auto;
+}
+
+.logBoxInput > input {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.logInContainer {
+    display: grid;
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+.loogInTitle {
+    margin: 1% auto;
+    margin-bottom: 0;
+}
+
+.LogInButton {
+    border-radius: 15px;
+    background-color: #5375cf;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    width: 80%;
+    margin: auto;
+}
+
+.containerRegistrati {
+    display: flex;
+}
+
+.containerRegistrati > p {
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+    font-size: large;
+}
+
+.EndStatus {
+    color: green;
+    margin: 15px auto;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.logOutButton {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #e3a419;
+    color: white;
+    font-size: unset;
+    font-weight: 800;
+}
