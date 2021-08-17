@@ -55,14 +55,15 @@ export default class AddPhoto extends Component {
         let ps = this.state.password;
 
         const toSend = {
-            idArt: this.state.idArt,
+            id: this.state.idArt,
             lstimg: this.state.listImgCrgr,
-            nval: this.state.nVal,
+            val: this.state.nVal,
             cop: this.state.cop,
             username: this.state.username,
             password: ps,
         }
         
+        console.log(toSend)
 
         
         axios.post(setting.path + "add/imgs", toSend)
