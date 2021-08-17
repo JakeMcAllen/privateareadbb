@@ -108,7 +108,7 @@ export default class AddPhoto extends Component {
                                     placeholder="1"
                                     min="1"
                                     id="titoloInputBox"
-                                    onChange={ e => this.setState({titoloInputBox: e.target.value}) }
+                                    onChange={ e => this.setState({idArt: e.target.value}) }
                                 />
   
                             </div>
