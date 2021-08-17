@@ -50,7 +50,7 @@ export default class AddPhoto extends Component {
 
 
 
-    sendNewLstImg = () => {
+    sendNewImg = () => {
         
         let ps = this.state.password;
 
@@ -58,6 +58,7 @@ export default class AddPhoto extends Component {
             idArt: this.state.idArt,
             lstimg: this.state.listImgCrgr,
             nval: this.state.nVal,
+            cop: this.state.cop,
             username: this.state.username,
             password: ps,
         }
@@ -119,7 +120,8 @@ export default class AddPhoto extends Component {
                             <h2> Lista immagini aggiuntive </h2>
 
                             <div>
-                                <h2> Tipo immagine: ( 1: img di copertina, 2: img extra ) </h2>
+                                <h2> Tipo immagine: </h2>
+                                <p> Value= 1: img di copertina, <br /> 2: img extra. <br /> Se si sceglie value allora bisogna mettere solo un immagine altrimenti da errore. </p>
                                 <inpu 
                                     type="number" 
                                     min="1"
@@ -177,7 +179,7 @@ export default class AddPhoto extends Component {
                                 </div>
                             </div>
 
-                            <button className="bttnPub" onClick={ () => this.sendNewArtc()}> PUBBLICA </button>
+                            <button className="bttnPub" onClick={ () => this.sendNewImg()}> PUBBLICA </button>
                         </div>
                     </div>
 
