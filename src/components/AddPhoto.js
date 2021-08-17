@@ -123,6 +123,7 @@ export default class AddPhoto extends Component {
                                 <h3> Tipo immagine: </h3>
                                 <p> Value= 1: img di copertina, <br /> 2: img extra. <br /> Se si sceglie value allora bisogna mettere solo un immagine altrimenti da errore. </p>
                                 <input
+                                    className="imgBox" 
                                     type="number" 
                                     min="1"
                                     max="2"
@@ -137,6 +138,7 @@ export default class AddPhoto extends Component {
                             <div className="listImgsPreview"> 
 
                                 Lista preview immagini
+                                <br /> 
                                 <input 
                                     className="imgBox" 
                                     type="file" 
