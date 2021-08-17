@@ -135,16 +135,16 @@ export default class AddPhoto extends Component {
                                 />
                             </div>
 
+                            <hr /> 
+
                             <div className="listImgsPreview"> 
 
                                 <h3> Lista preview immagini: </h3>
 
                                 <br /> 
-
                                 <div> Foto caricate: { this.state.listImgCrgr.length } </div>
-
                                 <br />
-
+                                
                                 <input 
                                     className="imgBox" 
                                     type="file" 
