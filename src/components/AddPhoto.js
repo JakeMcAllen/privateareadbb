@@ -17,6 +17,9 @@ export default class AddPhoto extends Component {
 
             // id article
             idArt: -1,
+            
+            // copertina = 1 else imgExtra
+            cop: 2,
 
             // extra input di immagini
             listImgCrgr: [],
@@ -114,6 +117,20 @@ export default class AddPhoto extends Component {
                         <div className="SezImgExtra">
                         
                             <h2> Lista immagini aggiuntive </h2>
+
+                            <div>
+                                <h2> Tipo immagine: ( 1: img di copertina, 2: img extra ) </h2>
+                                <inpu 
+                                    type="number" 
+                                    min="1"
+                                    max="2"
+                                    value="2"
+                                    onChange={e => {
+                                        this.setState({cop: e.target.value});
+                                        console.log("val: " + e.target.value)
+                                    }}
+                                />
+                            </div>
 
                             <div className="listImgsPreview"> 
 
