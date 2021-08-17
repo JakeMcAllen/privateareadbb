@@ -16,7 +16,7 @@ export default class AddPhoto extends Component {
             password: "",
 
             // id article
-            idArt: -1,
+            idArt: 1,
             
             // copertina = 1 else imgExtra
             cop: 2,
