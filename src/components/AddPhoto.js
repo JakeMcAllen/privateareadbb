@@ -119,7 +119,7 @@ export default class AddPhoto extends Component {
                         
                             <h2> Lista immagini aggiuntive </h2>
 
-                            <div>
+                            <div className="listImgsPreview">
                                 <h3> Tipo immagine: </h3>
                                 <p> Value= 1: img di copertina, <br /> 2: img extra. <br /> Se si sceglie value allora bisogna mettere solo un immagine altrimenti da errore. </p>
                                 <input
@@ -127,7 +127,7 @@ export default class AddPhoto extends Component {
                                     type="number" 
                                     min="1"
                                     max="2"
-                                    value="2"
+                                    placeholder="2"
                                     onChange={e => {
                                         this.setState({cop: e.target.value});
                                         console.log("val: " + e.target.value)
