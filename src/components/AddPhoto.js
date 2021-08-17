@@ -137,19 +137,22 @@ export default class AddPhoto extends Component {
 
                             <div className="listImgsPreview"> 
 
-                                Lista preview immagini
+                                <h3> Lista preview immagini: </h3>
+
                                 <br /> 
+
+                                <div> Foto caricate: { this.state.listImgCrgr.length } </div>
+
+                                <br />
+
                                 <input 
                                     className="imgBox" 
                                     type="file" 
                                     id="imgCopInputBox"  // imgCopInputBox
                                     onChange={this.onImagChargerList}
                                 />
-                                <div>
 
-                                    <div>
-                                        Foto caricate: { this.state.listImgCrgr.length }
-                                    </div>
+                                <div>
 
                                     <div className="imgPrevContainer">
                                         {
